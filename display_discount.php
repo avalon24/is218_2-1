@@ -7,7 +7,7 @@
    $discount_price = $list_price - $discount_amt;
 
    $list_price_f     = "$".number_format($list_price,2);
-   $discount_pct_f   = number_format($discount_pct_f,1)."%";
+   $discount_pct_f   = number_format($discount_pct,1)."%";
    $discount_amt_f   = "$".number_format($discount_amt,2);
    $discount_price_f = "$".number_format($discount_price,2);  
 
